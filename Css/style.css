@@ -36,8 +36,6 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
@@ -71,8 +69,6 @@ header {
     left: 969px;
     top: 170px;
 
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 700;
     font-size: 70px;
 
@@ -87,8 +83,6 @@ header {
     left: 305px;
     top: 878px;
 
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 700;
     font-size: 50px;
     line-height: 67px;
@@ -113,16 +107,11 @@ header {
 }
 
 .outras_receitas p {
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 600;
     font-size: 26px;
     line-height: 32px;
     text-align: center;
     padding: 20px;
-
-    color: #000000;
-
 }
 
 .outras_receitas button {
@@ -132,13 +121,14 @@ header {
     border: none;
     left: 25%;
 
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 700;
     font-size: 24px;
-
-    color: white;
     background-color: #176902;
+}
+
+.outras_receitas button a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .banner2 {
@@ -154,8 +144,6 @@ header {
     left: 122px;
     top: 200px;
 
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 700;
     font-size: 65px;
     line-height: 79px;
@@ -171,8 +159,6 @@ header {
     left: 123px;
     top: 300px;
 
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
@@ -189,7 +175,6 @@ footer {
     top: 2397px;
 
     background: #FFC107;
-
 }
 
 #logofooter {
@@ -207,8 +192,6 @@ footer {
     left: 368px;
     top: 50px;
 
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 22px;

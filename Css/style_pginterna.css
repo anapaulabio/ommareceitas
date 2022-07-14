@@ -66,6 +66,7 @@ header {
     font-weight: 700;
     font-size: 50px;
     line-height: 61px;
+    
     color: #FFA000;
 }
 
@@ -96,6 +97,7 @@ header {
     font-weight: 600;
     font-size: 18px;
     line-height: 2;2px;
+    
 
     color: #176902;
 
@@ -119,6 +121,7 @@ header {
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
+    text-decoration: none;
 
     color: #176902;
 }
@@ -183,7 +186,7 @@ header {
     font-weight: 500;
     font-size: 30px;
     line-height: 37px;
-
+    
     color: #FFA000;
 }
 
@@ -204,13 +207,13 @@ header {
     height: 411px;
     top: 360px;
 
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 26px;
-    line-height: 32px;
     text-align: center;
-
+}
+#txt_moqueca a {
+    text-decoration: none;
     color: #000000;
 }
 
@@ -232,13 +235,13 @@ header {
     left: 70px;
     top: 360px;
 
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 600;
     font-size: 26px;
-    line-height: 32px;
     text-align: center;
+}
 
+#txt_banana a {
+    text-decoration: none;
     color: #000000;
 }
 
@@ -260,13 +263,12 @@ header {
     left: 50px;
     top: 360px;
 
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 600;
     font-size: 26px;
-    line-height: 32px;
     text-align: center;
-
+}
+#txt_tabule a {
+    text-decoration: none;
     color: #000000;
 }
 

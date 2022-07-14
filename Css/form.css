@@ -36,8 +36,6 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
@@ -62,8 +60,6 @@ header {
     left: 122px;
     top: 214px;
 
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 700;
     font-size: 70px;
 
@@ -82,7 +78,6 @@ header {
 
 .itens {
     box-sizing: border-box;
-
     position: absolute;
     width: 820px;
     height: 766px;
@@ -206,8 +201,6 @@ footer {
     left: 368px;
     top: 50px;
 
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 22px;
