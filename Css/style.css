@@ -1,128 +1,69 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-}
+@import url(general.css);
 
-#img_banner {
-    position: absolute;
-    width: 324px;
-    height: 84px;
-    left: 537px;
-    top: 16px;
-}
-
-nav {
-    display: flex;
-    justify-content: space-evenly;
-    position: absolute;
-    width: 1440px;
-    height: 48px;
-    left: 0px;
-    top: 117px;
-    background: #FFA000;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-    align-items: center;
-}
-
-nav ul li {
-    padding: 10px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-    text-transform: lowercase;
-    color: white;
-}
-
-header {
-    position: relative;
-    width: 1440px;
-    height: 117px;
-    left: 0px;
-    top: 0px;
-    background: #FFC107;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
+/* INDEX.HTML*/
 
 .banner1 {
-    position: relative;
-    width: 1440px;
-    height: 638.18px;
-    left: 0px;
-    top: 49px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    max-width: 1440px;
+    margin-inline: auto;
+    background-image: url(../img/image\ 1.png);
+    background-position: center;
+    background-size: cover;
+    height: 64rem;
 }
 
 .banner1 h1 {
-    position: absolute;
-    width: 370px;
-    height: 170px;
-    left: 969px;
-    top: 170px;
-
+    padding-right: 8rem;
     font-weight: 700;
-    font-size: 70px;
-
+    font-size: 7rem;
+    line-height: 8.5rem;
+    margin-inline: auto;
+    max-width: 1440px;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
 }
 
 .titulo {
-    position: absolute;
-    width: 830px;
-    height: 67px;
-    left: 305px;
-    top: 878px;
-
+    margin-inline: auto;
+    max-width: 1440px;
+    padding-block: 5rem;
     font-weight: 700;
-    font-size: 50px;
-    line-height: 67px;
+    font-size: 5rem;
     text-align: center;
 
     color: #FFA000;
 }
 
 .outras_receitas {
-    display: grid;
-    grid-template-columns: repeat(3, 342px);
-    grid-template-rows: auto;
-    column-gap: 70px;
-    row-gap: 30px;
-    margin: 270px 120px 0px 120px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-inline: auto;
+    max-width: 1440px;
+    padding-block: 5rem;
 
 }
 
 .outras_receitas img {
-    width: 345px;
-    height: 342px;
+    width: 34.5rem;
+    height: 34.2rem;
 }
 
 .outras_receitas p {
     font-weight: 600;
-    font-size: 26px;
-    line-height: 32px;
+    font-size: 2.6rem;
     text-align: center;
-    padding: 20px;
+    padding: 2rem;
 }
 
 .outras_receitas button {
-    position: relative;
-    width: 185px;
-    height: 48px;
+    width: 18.5rem;
+    height: 4.8rem;
     border: none;
-    left: 25%;
-
+   
     font-weight: 700;
-    font-size: 24px;
+    font-size: 2.4rem;
     background-color: #176902;
 }
 
@@ -131,70 +72,42 @@ header {
     color: #FFFFFF;
 }
 
+.pgn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .banner2 {
-    position: absolute;
-    width: 1440px;
-    height: 772px;
-    left: 0px;
-    top: 1625px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 1440px;
+    margin-inline: auto;
+    background-image: url(../img/image\ 2.png);
+    background-position: center;
+    background-size:auto;
+    height: 77.2rem;
+
 }
 
 .banner2 article h2 {
-    position: absolute;
-    left: 122px;
-    top: 200px;
-
-    font-weight: 700;
-    font-size: 65px;
-    line-height: 79px;
-
+     font-weight: 700;
+    font-size: 6.5rem;
+    padding: 3rem 10rem;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .banner2 article p {
-    position: absolute;
-    width: 424px;
-    height: 333px;
-    left: 123px;
-    top: 300px;
-
+     width: 50rem;
+    padding: 3rem 10rem;
     font-weight: 500;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 2.4rem;
 
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-footer {
-    position: absolute;
-    width: 1440px;
-    height: 119px;
-    left: 0px;
-    top: 2397px;
+/* RECEITAS */
 
-    background: #FFC107;
-}
-
-#logofooter {
-    position: absolute;
-    width: 324px;
-    height: 84px;
-    left: 6px;
-    top: 15px;
-}
-
-#copy {
-    position: absolute;
-    width: 464px;
-    height: 22px;
-    left: 368px;
-    top: 50px;
-
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 22px;
-
-    color: #FFFFFF;
-}
