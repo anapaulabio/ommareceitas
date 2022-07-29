@@ -129,12 +129,12 @@
 
 .todas {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 15rem;
     max-width: 1440px;
     margin-inline: auto;
-    row-gap: 10rem;
-    padding-block-end: 8rem;
+    padding: 0 8rem  8rem 8rem;
+    
 
 }
 
@@ -300,3 +300,5 @@ aside h2 {
     text-decoration: none;
     color: #000000;
 }
+
+/* CONTATO */

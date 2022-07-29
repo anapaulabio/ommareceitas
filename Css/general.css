@@ -97,13 +97,6 @@ footer {
 }
 
 @media (max-width: 690px) {
-    .todas {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(6, 1fr);
-        row-gap: 5rem;
-    
-    }
     .sessao {
         flex-direction: column;
     }
