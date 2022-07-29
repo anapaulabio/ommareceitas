@@ -95,3 +95,24 @@ footer {
         row-gap: 2rem;
     }
 }
+
+@media (max-width: 690px) {
+    .todas {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        row-gap: 5rem;
+    
+    }
+    .sessao {
+        flex-direction: column;
+    }
+    
+}
+    
+@media (max-width: 500px) {
+  html {
+    font-size: 35%;
+  }
+
+}
