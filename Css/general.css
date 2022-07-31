@@ -94,6 +94,7 @@ footer {
         align-items: center;
         row-gap: 2rem;
     }
+
 }
 
 @media (max-width: 690px) {

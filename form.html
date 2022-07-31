@@ -1,59 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,500;0,600;0,700;1,100;1,700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" tyoe="text/css" href="./Css/form.css">
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,500;0,600;0,700;1,100;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" tyoe="text/css" href="./Css/style.css" />
     <title>Omma</title>
+  </head>
 
-</head>
-
-<body>
-    <header>
-        <img src="./img/logo.png" alt="logo" id="img_banner">
+  <body>
+    <header class="container">
+      <div class="logo">
+        <img src="./img/logo.png" alt="logo" id="img_banner" />
+      </div>
     </header>
-    <nav role="navigation">
-        <ul role="menu">
-            <li><a href="index.html"      target="_blank">Início</a></li>
-            <li><a href="receitas.html"
-            target="_blank">Receitas</a></li>
-            <li><a href="form.html"
-            target="_blank">Contato</a></li>
-        </ul>
+    <nav class="navigation">
+      <ul>
+        <li><a href="index.html" target="_blank">início</a></li>
+        <li><a href="receitas.html" target="_blank">receitas</a></li>
+        <li><a href="form.html" target="_blank">contato</a></li>
+      </ul>
     </nav>
     <main>
-        <section class="banner_form">
-            <div>
-            <img src="./img/form.png" alt="manda um alô">
-            <h1>manda um alô :)</h1>
-            </div>
-        </section>
-        <section class="formulario">
-            <div class="image">
-                <img src="./img/Rectangle 28.png" alt="contato">
-            </div>
-            <form class="itens">
-                <h2>Contato</h2>
-                <input id="nome" type="text" placeholder="nome">
-                <input id="email" type="email" placeholder="email">
-                <input id="mensagem" type="text" placeholder="mensagem">
-                <button>enviar</button>
-            </form>
-        </section>
-
+      <section class="banner_form">
+        <div>
+          <h1>manda um alô :)</h1>
+        </div>
+      </section>
+      <section class="formulario">
+        <div class="image">
+          <img src="./img/Rectangle 28.png" alt="contato" />
+        </div>
+        <form>
+          <fieldset class="contact">
+            <label for="name">Contato</label>
+            <input id="nome" type="text" placeholder="nome" />
+            <input id="email" type="email" placeholder="email" />
+            <input id="mensagem" type="text" placeholder="mensagem" />
+            <button> 
+                <a href="#">enviar</a>
+            </button>
+          </fieldset>
+        </form>
+      </section>
     </main>
-</body>
-<footer class="container">
-    <div>
-        <img src="./img/logo.png" alt="logo" id="logofooter">
-        <p id="copy">© 2022 omma - todos os direitos são de vocês</p>
-    </div>
-</footer>
+    <footer>
+      <div class="container-f">
+        <img src="./img/logo.png" alt="logo" />
+        <p>© 2022 omma - todos os direitos são de vocês</p>
+      </div>
+    </footer>
+  </body>
 </html>

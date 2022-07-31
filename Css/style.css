@@ -302,3 +302,108 @@ aside h2 {
 }
 
 /* CONTATO */
+
+.banner_form {
+    display: flex;
+    margin-inline: auto;
+    max-width: 1440px;
+    background-image: url(../img/form.png);
+    background-size: cover;
+    height: 40.5rem;
+}
+
+.banner_form h1 {
+    padding: 5rem 8rem;
+    width: 60rem;
+    font-weight: 700;
+    font-size: 7rem;
+    margin-inline: auto;
+    max-width: 1440px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+}
+
+.image {
+    width: 35rem;
+    height: 77rem;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+    margin-inline: auto;
+    max-width: 1440px;
+    padding-block: 10rem;
+}
+
+.contact { 
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+
+    width: 82rem;
+    height: 76.6rem;
+    padding: 6rem 3rem;
+
+    border: .1rem solid #FFA000;
+    border-radius: 2rem;
+}
+
+label {
+    padding-block-end: 6rem;
+    font-weight: 700;
+    font-size: 4rem;
+    color: #FFC107;
+}
+
+#nome, #email {
+    display: flex;
+    height: 4.8rem;
+    padding-left: 2rem;
+    font-weight: 400;
+    font-size: 16px;
+    border: 1px solid #FFA000;
+    border-radius: 7px;
+}
+
+#mensagem {
+    height: 29rem;
+    display: flex;
+
+    padding-left: 2rem;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #58555D;
+    border: 1px solid #FFA000;
+    border-radius: 7px;
+    padding-bottom: 23rem;
+}
+
+.contact button {
+    Width: 16.4rem;
+    height: 4.8rem;
+
+    font-weight: 800;
+    font-size: 16px;
+
+    text-align: center;
+    background-color: #FFA000;
+    border: #FFA000;
+    border-radius: 5rem;
+}
+
+.contact button a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.contact button:hover {
+    background-color: #FF6600;
+
+}
+
+
